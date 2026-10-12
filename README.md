@@ -136,3 +136,74 @@ wildfire-air-quality-pulang-pisau-central-kalimantan/
 ├── .gitignore
 └── LICENSE
 
+---
+
+## Data and Processing Notes
+
+The processed datasets are organized according to their source and observation period.
+
+NASA FIRMS datasets are organized by month for July, August, and September 2026.
+
+Sentinel-5P atmospheric indicators are provided for September 2026 and include HCHO, NO₂, and Absorbing Aerosol Index products.
+
+The Python scripts in the `scripts/` directory are used to generate the spatial maps and visualization outputs stored in the `figures/` directory.
+
+---
+
+## Reproducibility
+
+The repository is organized to support reproducible geospatial analysis.
+
+The `data/` directory contains the processed spatial datasets, while the `scripts/` directory contains Python scripts used to generate maps and visualizations.
+
+The workflow can be adapted for additional observation periods or similar wildfire and atmospheric pollution studies in other regions.
+
+---
+
+## Potential Applications
+
+The workflow can support several applications, including:
+
+- Wildfire activity monitoring
+- Environmental assessment
+- Atmospheric pollution analysis
+- Remote sensing research
+- Geospatial data analysis
+- Regional environmental monitoring
+- Research and academic projects
+- GIS and remote sensing portfolio development
+
+---
+
+## Data Interpretation and Limitations
+
+The satellite-derived indicators presented in this repository represent spatial atmospheric and fire-related signals observed from remote sensing data.
+
+The Sentinel-5P products should not be interpreted as direct measurements of ground-level pollutant concentrations.
+
+The analysis is intended for spatial assessment, environmental monitoring, and research purposes. Further validation using ground-based air-quality observations is recommended for quantitative assessment of surface pollutant concentrations.
+
+---
+
+## Project Scope
+
+This repository focuses on spatial analysis and visualization of satellite-derived wildfire and atmospheric pollution indicators.
+
+The results are intended to support environmental analysis and research. They should not be interpreted as direct ground-based air-quality measurements or as a standalone public-health assessment.
+
+---
+
+## License
+
+This project is provided under the MIT License. See the `LICENSE` file for details.
+
+---
+
+## Author
+
+**M. Dedy Lesmana**
+
+Geospatial Analysis | Remote Sensing | GIS | Environmental Monitoring
+
+This project was developed as part of ongoing research and geospatial analysis activities focused on wildfire monitoring and atmospheric environmental assessment in Indonesia.
+
