@@ -2,11 +2,28 @@
 
 ## Remote Sensing-Based Forest Fire and Atmospheric Pollution Analysis
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Google Earth Engine](https://img.shields.io/badge/Google%20Earth%20Engine-Remote%20Sensing-green)
+![NASA FIRMS](https://img.shields.io/badge/NASA-FIRMS-orange)
+![Sentinel-5P](https://img.shields.io/badge/Copernicus-Sentinel--5P-blue)
+![GIS](https://img.shields.io/badge/Geospatial-GIS-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 This repository presents a remote sensing-based geospatial analysis workflow for assessing forest-fire activity and atmospheric pollution indicators in Pulang Pisau Regency, Central Kalimantan, Indonesia.
 
 The project integrates satellite-derived fire detection data from NASA FIRMS with Sentinel-5P atmospheric composition products to examine the spatial distribution of wildfire activity and selected atmospheric pollution indicators.
 
 The workflow includes spatial data processing, study-area mapping, monthly fire-activity analysis, atmospheric pollution visualization, and map generation using Python and geospatial datasets.
+
+---
+
+## Project Overview
+
+This project demonstrates a satellite-based geospatial workflow for wildfire and atmospheric environmental monitoring in Pulang Pisau Regency, Central Kalimantan, Indonesia.
+
+The analysis combines NASA FIRMS active-fire detection data with Copernicus Sentinel-5P atmospheric indicators and geospatial processing techniques to produce spatially explicit environmental visualizations.
+
+The workflow is designed as a reproducible research and geospatial portfolio project and can be adapted to other regions and observation periods.
 
 ---
 
@@ -86,6 +103,21 @@ The project produces several spatial and analytical outputs, including:
 - Sentinel-5P NO₂ spatial distribution map
 - Sentinel-5P Absorbing Aerosol Index map
 - Integrated wildfire and atmospheric pollution visualizations
+
+---
+
+## Skills Demonstrated
+
+- Remote sensing and satellite data analysis
+- Google Earth Engine
+- Geographic Information Systems (GIS)
+- Spatial data processing
+- Raster data processing
+- Wildfire monitoring
+- Atmospheric environmental assessment
+- Python geospatial programming
+- Thematic mapping and visualization
+- Reproducible geospatial workflows
 
 ---
 
@@ -190,6 +222,14 @@ The analysis is intended for spatial assessment, environmental monitoring, and r
 This repository focuses on spatial analysis and visualization of satellite-derived wildfire and atmospheric pollution indicators.
 
 The results are intended to support environmental analysis and research. They should not be interpreted as direct ground-based air-quality measurements or as a standalone public-health assessment.
+
+---
+
+## Disclaimer
+
+The outputs presented in this repository are intended for research, environmental monitoring, and geospatial analysis purposes.
+
+Satellite-derived indicators may not directly represent ground-level pollutant concentrations or individual wildfire events. Interpretation should consider the spatial and temporal characteristics of the satellite observations and, where applicable, should be supported by ground-based observations.
 
 ---
 
